@@ -8,6 +8,7 @@ library(tidyverse)
 
 
 ####### PREPARE DATA 
+# https://www.tylermw.com/a-step-by-step-guide-to-making-3d-maps-with-satellite-imagery-in-r/
 # 1. Prepare data of Elevation 
 # Elevation SRTM30 Download from https://dwtkns.com/srtm30m/ 
 elev3603 <- raster::raster("rawdata/srtm30/N36W003.hgt")
